@@ -43,3 +43,6 @@ Each row represents a different policyholder and their associated information. H
     _c39: Unnamed column
 
 It appears that the last column _c39 doesn't seem to have any meaningful data and could be an artifact. Additionally, there are missing values denoted by "?" in the dataset, particularly in columns like collision_type, property_damage, and police_report_available.
+
+
+n this study, an insurance dataset underwent an exploratory data analysis (EDA) to unveil relationships between attributes. Through this analysis, missing values were identified and replaced, while outliers were detected and removed to ensure data integrity. A correlation heatmap was constructed to visualize variable relationships and address multicollinearity concerns. Leveraging insights from the EDA, machine learning algorithms were employed to predict insurance fraud likelihood. Models were trained and evaluated using diverse metrics, ensuring effectiveness in fraud detection. This approach, spanning from data exploration to predictive modeling, offers a robust framework for insurance dataset analysis and fraud mitigation.
